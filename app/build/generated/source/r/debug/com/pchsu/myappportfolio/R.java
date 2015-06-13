@@ -1529,11 +1529,11 @@ containing a value of this type.
         public static final int alertTitle=0x7f0c0030;
         public static final int always=0x7f0c0016;
         public static final int beginning=0x7f0c0013;
-        public static final int button1=0x7f0c0050;
-        public static final int button2=0x7f0c0051;
-        public static final int button3=0x7f0c0052;
-        public static final int button4=0x7f0c0053;
-        public static final int button5=0x7f0c0054;
+        public static final int button_spodify =0x7f0c0050;
+        public static final int button_superDuo =0x7f0c0051;
+        public static final int button_buildItBigger =0x7f0c0052;
+        public static final int button_XYZReader =0x7f0c0053;
+        public static final int button_capstone =0x7f0c0054;
         public static final int buttonPanel=0x7f0c0036;
         public static final int checkbox=0x7f0c0038;
         public static final int collapseActionView=0x7f0c0017;

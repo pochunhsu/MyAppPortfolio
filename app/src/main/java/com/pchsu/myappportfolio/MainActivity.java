@@ -3,7 +3,6 @@ package com.pchsu.myappportfolio;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -21,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         EnumMap<APP_NAME, Button> mButtonMap = new EnumMap<>(APP_NAME.class);
-        mButtonMap.put(APP_NAME.SPODIFY_STREAMER,(Button)findViewById(R.id.button1));
-        mButtonMap.put(APP_NAME.SUPER_DUO,(Button)findViewById(R.id.button2));
-        mButtonMap.put(APP_NAME.BUILD_IT_BIGGER,(Button)findViewById(R.id.button3));
-        mButtonMap.put(APP_NAME.XYZ_READER,(Button)findViewById(R.id.button4));
-        mButtonMap.put(APP_NAME.CAPSTONE,(Button)findViewById(R.id.button5));
+        mButtonMap.put(APP_NAME.SPODIFY_STREAMER,(Button)findViewById(R.id.button_spodify));
+        mButtonMap.put(APP_NAME.SUPER_DUO,(Button)findViewById(R.id.button_superDuo));
+        mButtonMap.put(APP_NAME.BUILD_IT_BIGGER,(Button)findViewById(R.id.button_buildItBigger));
+        mButtonMap.put(APP_NAME.XYZ_READER,(Button)findViewById(R.id.button_XYZReader));
+        mButtonMap.put(APP_NAME.CAPSTONE,(Button)findViewById(R.id.button_capstone));
 
         mButtonMap.get(APP_NAME.SPODIFY_STREAMER).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,13 +62,6 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(MainActivity.this, str, Toast.LENGTH_LONG);
         toast.setGravity(Gravity.BOTTOM,0,15);
         toast.show();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
     }
 
     @Override

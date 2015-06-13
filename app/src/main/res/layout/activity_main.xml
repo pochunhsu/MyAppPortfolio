@@ -34,27 +34,27 @@
         <Button
             style="@style/Main_Botton"
             android:text="@string/app1"
-            android:id="@+id/button1"/>
+            android:id="@+id/button_spodify"/>
 
         <Button
             style="@style/Main_Botton"
             android:text="@string/app2"
-            android:id="@+id/button2"/>
+            android:id="@+id/button_superDuo"/>
 
         <Button
             style="@style/Main_Botton"
             android:text="@string/app3"
-            android:id="@+id/button3"/>
+            android:id="@+id/button_buildItBigger"/>
 
         <Button
             style="@style/Main_Botton"
             android:text="@string/app4"
-            android:id="@+id/button4"/>
+            android:id="@+id/button_XYZReader"/>
 
         <Button
             style="@style/Main_Botton"
             android:text="@string/app5"
-            android:id="@+id/button5"/>
+            android:id="@+id/button_capstone"/>
 
     </LinearLayout>
 </RelativeLayout>
